@@ -16,6 +16,6 @@
 //  else{
 //      echo 'houve insuficiencia em relação a algumas infomações, tente novamente daqui um mes!';
 //  };
-
+//    <--if e else em uma linha-->
 // $resultado = ($salario > 1800) ? 'Pode financiar um carro' : 'Não ha financiamento para o senhor.';
 // echo $resultado;
