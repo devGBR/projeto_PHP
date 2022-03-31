@@ -1,4 +1,5 @@
 <?php 
+    //<--TIPO BOOLEANO-->
     // $exibir_nome = TRUE;
     
     // if($exibir_nome){
@@ -6,13 +7,18 @@
     // }else{
     //     echo 'invalido';
     // }
-    class computer{
-        var $cpu;
-        function ligar(){
-            echo "ligar computador a {$this->cpu}...";
-        }
-    }
 
-    $obj = new computer;
-    $obj->cpu = "1Ghz";
-    $obj->ligar();
+    // <--TIPO OBJETO-->
+    // class computer{
+    //     var $cpu;
+    //     function ligar(){
+    //         echo "ligar computador a {$this->cpu}...";
+    //     }
+    // } 
+    // $obj = new computer;
+    // $obj->cpu = "1Ghz";
+    // $obj->ligar();
+
+    //<--CONSTANTES-->
+    // define('CLIENTES', 100);
+    //  echo CLIENTES;
