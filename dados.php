@@ -1,11 +1,12 @@
 <?php
     $nome = 'Gabriel';
-    $idade = 18;
-$salario = 960.00;
+    $nomedomeio = 'Felipe';
+    $sobrenome = 'Oliveira';
+    $data_nasc = 31/05/2003;
+    $email = 'gfcontroladoriageral@gmail.com';
 
-    $dados = array($nome, $idade, $salario);
-     var_dump($dados);
-     print_r($dados);
+    $nomecompleto = array($nome . $nomedomeio . $sobrenome);
+     var_dump($nomecompleto);
 
-     require 'calcularpeso.php';
-     echo "IMC: ", calculo_IMC(53, 1.80);
+    //  require 'calcularpeso.php';
+    //  echo "IMC: ", calculo_IMC(53, 1.80);
