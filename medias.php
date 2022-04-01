@@ -20,7 +20,7 @@
         } else {
             echo "Aluno: Reprovado\n";
         }
-    };
+    }
 
 //  for($i = 0; $i < count($notas); $i++){
 //   if($a > 7){
