@@ -13,7 +13,8 @@
     </head>
     <body>
         <div class="container">
-            <?php 
+            <input type="radio">
+            <!-- <?php 
                 // $exibir_nome = TRUE;
                 
                 // if($exibir_nome){
@@ -21,16 +22,16 @@
                 // }else{
                 //     echo 'invalido';
                 // }
-                class computer{
-                    var $cpu;
-                    function ligar(){
-                        echo "ligar computador a {$this->cpu}...";
-                    }
-                }
-                $obj = new computer;
-                $obj->cpu = "1Ghz"
-                $obj->ligar();
-            ?>
+                // class computer{
+                //     var $cpu;
+                //     function ligar(){
+                //         echo "ligar computador a {$this->cpu}...";
+                //     }
+                // }
+                // $obj = new computer;
+                // $obj->cpu = "1Ghz"
+                // $obj->ligar();
+            ?> -->
         </div>
     </body>
 </html>
