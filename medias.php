@@ -10,7 +10,7 @@
 
     for ($i = 0; $i < count($notas); $i++) {
         $resultados[$i] = array_sum($notas[$i]);
-    };
+    }
 
     for ($j = 0; $j < count($notas); $j++) {
         $temp = $resultados[$j] / 4;

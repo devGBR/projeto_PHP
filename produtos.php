@@ -6,10 +6,14 @@ class Produto
     var $preco;
 
 function detalhes(){
-        print "Detalhes do produto \n"  . 'Código: ' . $this->codigo . "\n" . 'Descrição: ' . $this->descricao . "\n" . 'Preço: ' . 'R$'. $this->preco;
+        $detalhes = "\nDetalhes do produto \n"  . 'Código: ' . $this->codigo . "\n" . 'Descrição: ' . $this->descricao . "\n" .  "Preço: R$ " . $this->mostrarPreço() . "\n" . "\n";
+        return $detalhes;
     }
 
 function mostrarPreço(){
-        print 'R$ ' . number_format($produto1->preco, 2, ',');
+      
+    return number_format($this->preco, 2, ',', '.');
+       
     }
 } 
+
