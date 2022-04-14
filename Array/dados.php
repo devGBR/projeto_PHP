@@ -14,10 +14,6 @@
 
      $data = str_replace('/','-',$data_nasc);
      echo $data;
-    
-
-    //  require 'calcularpeso.php';
-    //  echo "IMC: ", calculo_IMC(53, 1.80);
 
     $nome_array = explode(' ', $nomecompleto);
 

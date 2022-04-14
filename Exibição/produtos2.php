@@ -1,5 +1,5 @@
 <?php
-    require 'Produtos.php';
+    require 'classe/Produtos.php';
 
     $produto1 = new Produto;
     $produto1->codigo = 247;
